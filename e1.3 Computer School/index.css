@@ -1,0 +1,205 @@
+body{
+
+    max-width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+
+}
+hr{
+
+    margin: 0%;
+    height: 2px;
+    background-color: black;
+    
+}
+header {
+
+    margin: 0%;
+    display: flex;
+    background-color: red;
+    height: 120px;
+}
+header h1,h5 {
+
+    background-color: rgb(35, 8, 61);
+    color: white;
+    
+}
+#titulo-header {
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(35, 8, 61);
+    justify-content: center;
+    text-align: center;
+
+}   
+#img-header img {
+    
+    height: 100%;
+
+
+}
+nav{
+
+    margin: 0%;
+    padding: 0%;
+}
+#ul-nav {
+
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    display: flex;
+    list-style: none;
+
+}
+#ul-nav li {
+
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgb(182, 134, 226);
+}
+.contenedor-body{
+
+    display: block;
+    width: 100%;
+
+}
+#imagen-pattern{
+
+    margin: 0%;
+    height: 100px;
+    background-image: url(imagenes/pattern.jpg);
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    
+
+}
+#imagen-ordenadores {
+
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+
+}
+#imagen-ordenadores img  {
+
+    object-fit: cover;
+    width:100%;
+    height:100%;
+
+}
+#tabla-notas{
+
+    display: block;
+    text-align: center;
+    background-color: rgb(207, 204, 204);
+    margin: 0%;
+    padding: 30px;
+    
+    
+
+
+}
+#tabla-notas table {
+
+    border: 2px solid plum;
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    
+    
+    
+}
+#tabla-notas th {
+
+    border-bottom: 3px solid black;
+    background-color: rgb(116, 63, 116);
+    
+}
+#tabla-notas td,th {
+
+    padding: 10px;
+    text-align: center;
+}
+#maria {
+
+    background-color: gray;
+
+}
+#joan {
+
+    background-color: rgb(213, 204, 204);
+
+}
+#lluis {
+
+    background-color: gray;
+
+}
+#pepa {
+
+    background-color: rgb(213, 204, 204);
+
+    
+}
+#imagen-logos{
+
+
+    display: inline-flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+
+}
+#imagen-logos div{
+
+    padding-top: 10px;
+    border: 2px dotted black;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+
+}
+#imagen-logos img{
+
+    
+    width: 75%;
+    height: 250px;
+    opacity: 0.8;
+    
+
+}
+#imagen-logos p{
+
+    margin: 0%;
+
+}
+footer{
+
+    position: relative;
+    height: 100px;
+    background-color: rgb(95, 12, 95);
+    margin: 0%;
+}
+footer p{
+
+    color: white;
+    margin: 0%;
+    font-size: 10px;
+
+}
+#p2 {
+
+    position: absolute;
+    right: 10px;
+    bottom: 10px;    
+    
+}
+
+
+
