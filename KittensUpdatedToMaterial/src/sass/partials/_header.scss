@@ -1,0 +1,35 @@
+@use "@material/icon-button";
+@use "@material/top-app-bar/mdc-top-app-bar";
+@use "@material/button/styles"; 
+
+.mdc-top-app-bar{
+  background: $purple;
+  border-bottom: $border-width solid $white;
+  padding: 1em;
+
+  .mdc-top-app-bar__title {
+    color: $blue;
+    font-family: $logo-font-family;
+    font-size: 2.5em;
+    margin: .25em 0;
+    text-shadow: 1px 1px 0px $beige;
+  }
+
+  .mdc-tab-bar {
+    float: right;
+
+    .mdc-button.mdc-button--touch {
+      background: $blue;
+      border-radius: $border-radius;
+      color: $tan;
+      margin-right: 1em;
+      padding: .5em 1em;
+      text-decoration: none;
+
+      &:hover {
+        background-color: $blue-dark;
+      }
+    }
+  }
+
+}

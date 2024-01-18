@@ -18,7 +18,6 @@ function watcherSCSS(){
 
     watch('src/sass/*.scss',compilarSCSS);
 
-    watch
 }
 
 function minimizarCSS(){
