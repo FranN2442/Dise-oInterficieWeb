@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIFP Borja Moll </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- NAV -->
+        <nav class="navbar bg-primary navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- LOGO IMAGE -->
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/logocifp.png" width="150" height="50">
+                </a>
+                <!-- NAV BUTTONS -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <!-- DROPDOWN MENU -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cursos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">FPB</a></li>
+                                <li><a class="dropdown-item" href="#">CFGM</a></li>
+                                <li><a class="dropdown-item" href="#">CFGS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <!-- NOTIFICATIONS BUTTON -->
+                        <button type="button" class="btn btn-warning position-relative me-2">
+                            Notificaciones
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info">
+                                99+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                        <!-- SEARCH BAR -->
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-secondary" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- CAROUSEL -->
+    <div id="carouselExample" class="carousel slide mt-4 mb-4">
+        <div class="carousel-inner">
+            <!-- CAROUSEL IMG1 -->
+            <div class="carousel-item active">
+                <img src="../assets/estudiante.jpeg" class="d-block w-100" alt="Estudiante1">
+                <div class="carousel-caption bg-info d-none d-md-block">
+                    <h5>Biblioteca</h5>
+                    <p>Pierdete entre 4 millones de libros que te esperan en nuestra Biblioteca</p>
+                </div>
+            </div>
+            <!-- CAROUSEL IMG2 -->
+            <div class="carousel-item">
+                <img src="../assets/estudiante2.jpg" class="d-block w-100" alt="Estudiante2">
+                <div class="carousel-caption bg-info d-none d-md-block">
+                    <h5>Biblioteca</h5>
+                    <p>Pierdete entre 4 millones de libros que te esperan en nuestra Biblioteca</p>
+                </div>
+            </div>
+            <!-- CAROUSEL IMG3 -->
+            <div class="carousel-item">
+                <img src="../assets/estudiante3.jpg" class="d-block w-100" alt="Estudiante3">
+                <div class="carousel-caption bg-info d-none d-md-block">
+                    <h5>Biblioteca</h5>
+                    <p>Pierdete entre 4 millones de libros que te esperan en nuestra Biblioteca</p>
+                </div>
+            </div>
+            <!-- CAROUSEL IMG4 -->
+            <div class="carousel-item">
+                <img src="../assets/estudiante4.jpg" class="d-block w-100" alt="Estudiante4">
+                <div class="carousel-caption bg-info d-none d-md-block">
+                    <h5>Biblioteca</h5>
+                    <p>Pierdete entre 4 millones de libros que te esperan en nuestra Biblioteca</p>
+                </div>
+            </div>
+        </div>
+        <!-- CAROUSEL BUTTONS -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- CARDS GROUP -->
+    <div class="card-group">
+        <!-- ERASMUS CARD -->
+        <div class="card me-3">
+            <img src="../assets/erasmus.jpg" class="card-img-top" alt="erasmus">
+            <div class="card-body">
+                <h5 class="card-title">Prueba de nivel de inglés</h5>
+                <p class="card-text">Resultados de la prueba de ingles para seleccion de alumnos de Erasmus</p>
+            </div>
+        </div>
+        <!-- CIBER CARD -->
+        <div class="card me-3">
+            <img src="../assets/ciber.jpg" class="card-img-top" alt="ciber">
+            <div class="card-body">
+                <h5 class="card-title">Lista definitiva para el curso de especialización de Ciberseguridad</h5>
+                <p class="card-text">Este año han quedado fuera varios candidatos debido a la demanda.</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Mañanas</li>
+                    <li class="list-group-item">Tardes</li>
+                </ul>
+            </div>
+        </div>
+        <!-- TORRADA CARD -->
+        <div class="card">
+            <img src="../assets/torrada.jpg" class="card-img-top" alt="torrada">
+            <div class="card-body">
+                <h5 class="card-title">Torrada Sant Sebastián</h5>
+                <p class="card-text">Todo el instituto vendrá a divertirse</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+    </div>
+    <!-- USERS TABLE -->
+    <table class="table mt-4">
+        <!-- TABLE HEAD -->
+        <thead class="table-primary">
+            <tr>
+                <th scope="col">Usuario</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Roll</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <!-- TABLE BODY -->
+        <tbody>
+            <tr>
+                <td>alexpons</td>
+                <td>Alex</td>
+                <td>Pons</td>
+                <td>Profesor</td>
+                <td>
+                    <!-- CRUD BUTTONS -->
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#createModal">
+                            <i class='fas fa-user-plus'></i>
+                        </button>
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#editModal">
+                            <i class='fas fa-user-times'></i>
+                        </button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#deleteModal">
+                            <i class='fas fa-user-cog'></i>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>pept</td>
+                <td>Pep</td>
+                <td>Torrens</td>
+                <td>Estudiante</td>
+                <td>
+                    <!-- CRUD BUTTONS -->
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#createModal">
+                            <i class='fas fa-user-plus'></i>
+                        </button>
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#editModal">
+                            <i class='fas fa-user-times'></i>
+                        </button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#deleteModal">
+                            <i class='fas fa-user-cog'></i>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>juanmarquez</td>
+                <td>Juan</td>
+                <td>Marquez</td>
+                <td>Estudiante</td>
+                <td>
+                    <!-- CRUD BUTTONS -->
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#createModal">
+                            <i class='fas fa-user-plus'></i>
+                        </button>
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#editModal">
+                            <i class='fas fa-user-times'></i>
+                        </button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#deleteModal">
+                            <i class='fas fa-user-cog'></i>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Adri328</td>
+                <td>Adrian</td>
+                <td>Aguilar</td>
+                <td>Estudiante</td>
+                <td>
+                    <!-- CRUD BUTTONS -->
+                    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                            data-bs-target="#createModal">
+                            <i class='fas fa-user-plus'></i>
+                        </button>
+                        <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#editModal">
+                            <i class='fas fa-user-times'></i>
+                        </button>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                        data-bs-target="#deleteModal">
+                            <i class='fas fa-user-cog'></i>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<!-- CREATE MODEL -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar Usuario</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="inputUsuario" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="inputUsuario" aria-describedby="userHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputNombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="inputNombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputApellido" class="form-label">Apellido:</label>
+                        <input type="text" class="form-control" id="inputApellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputRol" class="form-label">Rol:</label>
+                        <input type="text" class="form-control" id="inputRol">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- EDIT MODEL -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Usuario</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="inputUsuario" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="inputUsuario" aria-describedby="userHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputNombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="inputNombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputApellido" class="form-label">Apellido:</label>
+                        <input type="text" class="form-control" id="inputApellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputRol" class="form-label">Rol:</label>
+                        <input type="text" class="form-control" id="inputRol">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- DELETE MODEL -->
+<div class="modal fade" id="deleteModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmar Eliminación</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ¿Estás seguro de que deseas eliminar este usuario?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-danger">Borrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
